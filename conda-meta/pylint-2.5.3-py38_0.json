@@ -1,0 +1,1408 @@
+{
+  "build": "py38_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "astroid >=2.4.0,<2.5",
+    "isort >=4.2.5,<5",
+    "mccabe >=0.6,<0.7",
+    "python >=3.8,<3.9.0a0",
+    "toml >=0.7.1"
+  ],
+  "extracted_package_dir": "/home/james/anaconda3/pkgs/pylint-2.5.3-py38_0",
+  "features": "",
+  "files": [
+    "bin/epylint",
+    "bin/pylint",
+    "bin/pyreverse",
+    "bin/symilar",
+    "lib/python3.8/site-packages/pylint-2.5.3.dist-info/COPYING",
+    "lib/python3.8/site-packages/pylint-2.5.3.dist-info/INSTALLER",
+    "lib/python3.8/site-packages/pylint-2.5.3.dist-info/METADATA",
+    "lib/python3.8/site-packages/pylint-2.5.3.dist-info/RECORD",
+    "lib/python3.8/site-packages/pylint-2.5.3.dist-info/WHEEL",
+    "lib/python3.8/site-packages/pylint-2.5.3.dist-info/direct_url.json",
+    "lib/python3.8/site-packages/pylint-2.5.3.dist-info/entry_points.txt",
+    "lib/python3.8/site-packages/pylint-2.5.3.dist-info/top_level.txt",
+    "lib/python3.8/site-packages/pylint/__init__.py",
+    "lib/python3.8/site-packages/pylint/__main__.py",
+    "lib/python3.8/site-packages/pylint/__pkginfo__.py",
+    "lib/python3.8/site-packages/pylint/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/pylint/__pycache__/__main__.cpython-38.pyc",
+    "lib/python3.8/site-packages/pylint/__pycache__/__pkginfo__.cpython-38.pyc",
+    "lib/python3.8/site-packages/pylint/__pycache__/config.cpython-38.pyc",
+    "lib/python3.8/site-packages/pylint/__pycache__/constants.cpython-38.pyc",
+    "lib/python3.8/site-packages/pylint/__pycache__/epylint.cpython-38.pyc",
+    "lib/python3.8/site-packages/pylint/__pycache__/exceptions.cpython-38.pyc",
+    "lib/python3.8/site-packages/pylint/__pycache__/graph.cpython-38.pyc",
+    "lib/python3.8/site-packages/pylint/__pycache__/interfaces.cpython-38.pyc",
+    "lib/python3.8/site-packages/pylint/__pycache__/testutils.cpython-38.pyc",
+    "lib/python3.8/site-packages/pylint/checkers/__init__.py",
+    "lib/python3.8/site-packages/pylint/checkers/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/pylint/checkers/__pycache__/async.cpython-38.pyc",
+    "lib/python3.8/site-packages/pylint/checkers/__pycache__/base.cpython-38.pyc",
+    "lib/python3.8/site-packages/pylint/checkers/__pycache__/base_checker.cpython-38.pyc",
+    "lib/python3.8/site-packages/pylint/checkers/__pycache__/classes.cpython-38.pyc",
+    "lib/python3.8/site-packages/pylint/checkers/__pycache__/design_analysis.cpython-38.pyc",
+    "lib/python3.8/site-packages/pylint/checkers/__pycache__/exceptions.cpython-38.pyc",
+    "lib/python3.8/site-packages/pylint/checkers/__pycache__/format.cpython-38.pyc",
+    "lib/python3.8/site-packages/pylint/checkers/__pycache__/imports.cpython-38.pyc",
+    "lib/python3.8/site-packages/pylint/checkers/__pycache__/logging.cpython-38.pyc",
+    "lib/python3.8/site-packages/pylint/checkers/__pycache__/misc.cpython-38.pyc",
+    "lib/python3.8/site-packages/pylint/checkers/__pycache__/newstyle.cpython-38.pyc",
+    "lib/python3.8/site-packages/pylint/checkers/__pycache__/python3.cpython-38.pyc",
+    "lib/python3.8/site-packages/pylint/checkers/__pycache__/raw_metrics.cpython-38.pyc",
+    "lib/python3.8/site-packages/pylint/checkers/__pycache__/refactoring.cpython-38.pyc",
+    "lib/python3.8/site-packages/pylint/checkers/__pycache__/similar.cpython-38.pyc",
+    "lib/python3.8/site-packages/pylint/checkers/__pycache__/spelling.cpython-38.pyc",
+    "lib/python3.8/site-packages/pylint/checkers/__pycache__/stdlib.cpython-38.pyc",
+    "lib/python3.8/site-packages/pylint/checkers/__pycache__/strings.cpython-38.pyc",
+    "lib/python3.8/site-packages/pylint/checkers/__pycache__/typecheck.cpython-38.pyc",
+    "lib/python3.8/site-packages/pylint/checkers/__pycache__/utils.cpython-38.pyc",
+    "lib/python3.8/site-packages/pylint/checkers/__pycache__/variables.cpython-38.pyc",
+    "lib/python3.8/site-packages/pylint/checkers/async.py",
+    "lib/python3.8/site-packages/pylint/checkers/base.py",
+    "lib/python3.8/site-packages/pylint/checkers/base_checker.py",
+    "lib/python3.8/site-packages/pylint/checkers/classes.py",
+    "lib/python3.8/site-packages/pylint/checkers/design_analysis.py",
+    "lib/python3.8/site-packages/pylint/checkers/exceptions.py",
+    "lib/python3.8/site-packages/pylint/checkers/format.py",
+    "lib/python3.8/site-packages/pylint/checkers/imports.py",
+    "lib/python3.8/site-packages/pylint/checkers/logging.py",
+    "lib/python3.8/site-packages/pylint/checkers/misc.py",
+    "lib/python3.8/site-packages/pylint/checkers/newstyle.py",
+    "lib/python3.8/site-packages/pylint/checkers/python3.py",
+    "lib/python3.8/site-packages/pylint/checkers/raw_metrics.py",
+    "lib/python3.8/site-packages/pylint/checkers/refactoring.py",
+    "lib/python3.8/site-packages/pylint/checkers/similar.py",
+    "lib/python3.8/site-packages/pylint/checkers/spelling.py",
+    "lib/python3.8/site-packages/pylint/checkers/stdlib.py",
+    "lib/python3.8/site-packages/pylint/checkers/strings.py",
+    "lib/python3.8/site-packages/pylint/checkers/typecheck.py",
+    "lib/python3.8/site-packages/pylint/checkers/utils.py",
+    "lib/python3.8/site-packages/pylint/checkers/variables.py",
+    "lib/python3.8/site-packages/pylint/config.py",
+    "lib/python3.8/site-packages/pylint/constants.py",
+    "lib/python3.8/site-packages/pylint/epylint.py",
+    "lib/python3.8/site-packages/pylint/exceptions.py",
+    "lib/python3.8/site-packages/pylint/extensions/__init__.py",
+    "lib/python3.8/site-packages/pylint/extensions/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/pylint/extensions/__pycache__/_check_docs_utils.cpython-38.pyc",
+    "lib/python3.8/site-packages/pylint/extensions/__pycache__/bad_builtin.cpython-38.pyc",
+    "lib/python3.8/site-packages/pylint/extensions/__pycache__/broad_try_clause.cpython-38.pyc",
+    "lib/python3.8/site-packages/pylint/extensions/__pycache__/check_docs.cpython-38.pyc",
+    "lib/python3.8/site-packages/pylint/extensions/__pycache__/check_elif.cpython-38.pyc",
+    "lib/python3.8/site-packages/pylint/extensions/__pycache__/comparetozero.cpython-38.pyc",
+    "lib/python3.8/site-packages/pylint/extensions/__pycache__/docparams.cpython-38.pyc",
+    "lib/python3.8/site-packages/pylint/extensions/__pycache__/docstyle.cpython-38.pyc",
+    "lib/python3.8/site-packages/pylint/extensions/__pycache__/emptystring.cpython-38.pyc",
+    "lib/python3.8/site-packages/pylint/extensions/__pycache__/mccabe.cpython-38.pyc",
+    "lib/python3.8/site-packages/pylint/extensions/__pycache__/overlapping_exceptions.cpython-38.pyc",
+    "lib/python3.8/site-packages/pylint/extensions/__pycache__/redefined_variable_type.cpython-38.pyc",
+    "lib/python3.8/site-packages/pylint/extensions/_check_docs_utils.py",
+    "lib/python3.8/site-packages/pylint/extensions/bad_builtin.py",
+    "lib/python3.8/site-packages/pylint/extensions/broad_try_clause.py",
+    "lib/python3.8/site-packages/pylint/extensions/check_docs.py",
+    "lib/python3.8/site-packages/pylint/extensions/check_elif.py",
+    "lib/python3.8/site-packages/pylint/extensions/comparetozero.py",
+    "lib/python3.8/site-packages/pylint/extensions/docparams.py",
+    "lib/python3.8/site-packages/pylint/extensions/docstyle.py",
+    "lib/python3.8/site-packages/pylint/extensions/emptystring.py",
+    "lib/python3.8/site-packages/pylint/extensions/mccabe.py",
+    "lib/python3.8/site-packages/pylint/extensions/overlapping_exceptions.py",
+    "lib/python3.8/site-packages/pylint/extensions/redefined_variable_type.py",
+    "lib/python3.8/site-packages/pylint/graph.py",
+    "lib/python3.8/site-packages/pylint/interfaces.py",
+    "lib/python3.8/site-packages/pylint/lint/__init__.py",
+    "lib/python3.8/site-packages/pylint/lint/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/pylint/lint/__pycache__/check_parallel.cpython-38.pyc",
+    "lib/python3.8/site-packages/pylint/lint/__pycache__/pylinter.cpython-38.pyc",
+    "lib/python3.8/site-packages/pylint/lint/__pycache__/report_functions.cpython-38.pyc",
+    "lib/python3.8/site-packages/pylint/lint/__pycache__/run.cpython-38.pyc",
+    "lib/python3.8/site-packages/pylint/lint/__pycache__/utils.cpython-38.pyc",
+    "lib/python3.8/site-packages/pylint/lint/check_parallel.py",
+    "lib/python3.8/site-packages/pylint/lint/pylinter.py",
+    "lib/python3.8/site-packages/pylint/lint/report_functions.py",
+    "lib/python3.8/site-packages/pylint/lint/run.py",
+    "lib/python3.8/site-packages/pylint/lint/utils.py",
+    "lib/python3.8/site-packages/pylint/message/__init__.py",
+    "lib/python3.8/site-packages/pylint/message/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/pylint/message/__pycache__/message.cpython-38.pyc",
+    "lib/python3.8/site-packages/pylint/message/__pycache__/message_definition.cpython-38.pyc",
+    "lib/python3.8/site-packages/pylint/message/__pycache__/message_definition_store.cpython-38.pyc",
+    "lib/python3.8/site-packages/pylint/message/__pycache__/message_handler_mix_in.cpython-38.pyc",
+    "lib/python3.8/site-packages/pylint/message/__pycache__/message_id_store.cpython-38.pyc",
+    "lib/python3.8/site-packages/pylint/message/message.py",
+    "lib/python3.8/site-packages/pylint/message/message_definition.py",
+    "lib/python3.8/site-packages/pylint/message/message_definition_store.py",
+    "lib/python3.8/site-packages/pylint/message/message_handler_mix_in.py",
+    "lib/python3.8/site-packages/pylint/message/message_id_store.py",
+    "lib/python3.8/site-packages/pylint/pyreverse/__init__.py",
+    "lib/python3.8/site-packages/pylint/pyreverse/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/pylint/pyreverse/__pycache__/diadefslib.cpython-38.pyc",
+    "lib/python3.8/site-packages/pylint/pyreverse/__pycache__/diagrams.cpython-38.pyc",
+    "lib/python3.8/site-packages/pylint/pyreverse/__pycache__/inspector.cpython-38.pyc",
+    "lib/python3.8/site-packages/pylint/pyreverse/__pycache__/main.cpython-38.pyc",
+    "lib/python3.8/site-packages/pylint/pyreverse/__pycache__/utils.cpython-38.pyc",
+    "lib/python3.8/site-packages/pylint/pyreverse/__pycache__/vcgutils.cpython-38.pyc",
+    "lib/python3.8/site-packages/pylint/pyreverse/__pycache__/writer.cpython-38.pyc",
+    "lib/python3.8/site-packages/pylint/pyreverse/diadefslib.py",
+    "lib/python3.8/site-packages/pylint/pyreverse/diagrams.py",
+    "lib/python3.8/site-packages/pylint/pyreverse/inspector.py",
+    "lib/python3.8/site-packages/pylint/pyreverse/main.py",
+    "lib/python3.8/site-packages/pylint/pyreverse/utils.py",
+    "lib/python3.8/site-packages/pylint/pyreverse/vcgutils.py",
+    "lib/python3.8/site-packages/pylint/pyreverse/writer.py",
+    "lib/python3.8/site-packages/pylint/reporters/__init__.py",
+    "lib/python3.8/site-packages/pylint/reporters/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/pylint/reporters/__pycache__/base_reporter.cpython-38.pyc",
+    "lib/python3.8/site-packages/pylint/reporters/__pycache__/collecting_reporter.cpython-38.pyc",
+    "lib/python3.8/site-packages/pylint/reporters/__pycache__/json_reporter.cpython-38.pyc",
+    "lib/python3.8/site-packages/pylint/reporters/__pycache__/reports_handler_mix_in.cpython-38.pyc",
+    "lib/python3.8/site-packages/pylint/reporters/__pycache__/text.cpython-38.pyc",
+    "lib/python3.8/site-packages/pylint/reporters/base_reporter.py",
+    "lib/python3.8/site-packages/pylint/reporters/collecting_reporter.py",
+    "lib/python3.8/site-packages/pylint/reporters/json_reporter.py",
+    "lib/python3.8/site-packages/pylint/reporters/reports_handler_mix_in.py",
+    "lib/python3.8/site-packages/pylint/reporters/text.py",
+    "lib/python3.8/site-packages/pylint/reporters/ureports/__init__.py",
+    "lib/python3.8/site-packages/pylint/reporters/ureports/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/pylint/reporters/ureports/__pycache__/nodes.cpython-38.pyc",
+    "lib/python3.8/site-packages/pylint/reporters/ureports/__pycache__/text_writer.cpython-38.pyc",
+    "lib/python3.8/site-packages/pylint/reporters/ureports/nodes.py",
+    "lib/python3.8/site-packages/pylint/reporters/ureports/text_writer.py",
+    "lib/python3.8/site-packages/pylint/testutils.py",
+    "lib/python3.8/site-packages/pylint/utils/__init__.py",
+    "lib/python3.8/site-packages/pylint/utils/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/pylint/utils/__pycache__/ast_walker.cpython-38.pyc",
+    "lib/python3.8/site-packages/pylint/utils/__pycache__/file_state.cpython-38.pyc",
+    "lib/python3.8/site-packages/pylint/utils/__pycache__/pragma_parser.cpython-38.pyc",
+    "lib/python3.8/site-packages/pylint/utils/__pycache__/utils.cpython-38.pyc",
+    "lib/python3.8/site-packages/pylint/utils/ast_walker.py",
+    "lib/python3.8/site-packages/pylint/utils/file_state.py",
+    "lib/python3.8/site-packages/pylint/utils/pragma_parser.py",
+    "lib/python3.8/site-packages/pylint/utils/utils.py"
+  ],
+  "fn": "pylint-2.5.3-py38_0.conda",
+  "legacy_bz2_md5": "d2fa52746b557350f95e915a1ddebd7c",
+  "license": "GPL-2.0-only",
+  "link": {
+    "source": "/home/james/anaconda3/pkgs/pylint-2.5.3-py38_0",
+    "type": 1
+  },
+  "md5": "42069d733431c2f976c37372de1a3b6b",
+  "name": "pylint",
+  "package_tarball_full_path": "/home/james/anaconda3/pkgs/pylint-2.5.3-py38_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/epylint",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "03a24dfcee5d84380e9b340ebfacca91a3ab7febccb862f1a9f63ab96b8a9577",
+        "sha256_in_prefix": "94c0a9f543e4e9517679eef712da8c2f46f4b2ab239ccf93c5cd3aa070de1d8d",
+        "size_in_bytes": 250
+      },
+      {
+        "_path": "bin/pylint",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "9f58c9fb6cec162fbf3a98c0be4c0ffc599917d6aa03c67593e776cb293fd941",
+        "sha256_in_prefix": "b1af556a4ce873d720dd93165cd3fd3e049571d22be127c2c682a05a0d7cc738",
+        "size_in_bytes": 248
+      },
+      {
+        "_path": "bin/pyreverse",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "f876ad3cdba1659caa1f9aedae3c51dbcfdf7333d81eee55652fc49a39ff3b93",
+        "sha256_in_prefix": "094fb1016ed776a4fc50ee3a5f69b1546e618b930d8b86e8e3ae5076b9ae3285",
+        "size_in_bytes": 254
+      },
+      {
+        "_path": "bin/symilar",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "dd30c31ca946342222a691aec7bbd012cae65a89c64d852d70c402d2edf6d20a",
+        "sha256_in_prefix": "5e9976c3272537fa86c12563deea93ba96df59b4422286659b43661b7d8a93b5",
+        "size_in_bytes": 250
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint-2.5.3.dist-info/COPYING",
+        "path_type": "hardlink",
+        "sha256": "c38aee9e3c8c4d5d594ff548a1be05453023016d6286931f6512db215ec1fd42",
+        "sha256_in_prefix": "c38aee9e3c8c4d5d594ff548a1be05453023016d6286931f6512db215ec1fd42",
+        "size_in_bytes": 17989
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint-2.5.3.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint-2.5.3.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "d3f5127004049f85afacf511ae2465154db7a5e5d9a1de42323612dc2ed3141a",
+        "sha256_in_prefix": "d3f5127004049f85afacf511ae2465154db7a5e5d9a1de42323612dc2ed3141a",
+        "size_in_bytes": 6630
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint-2.5.3.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "fb7adddf78d36078b0eaed09baba94e7b2c8c3f4a1b77bcaf156d91a799e013b",
+        "sha256_in_prefix": "fb7adddf78d36078b0eaed09baba94e7b2c8c3f4a1b77bcaf156d91a799e013b",
+        "size_in_bytes": 12565
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint-2.5.3.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "8389ccb3b77e5e5f7ec42f57a2f52bb031c65edf854f4135ed8aa8f760c47ef6",
+        "sha256_in_prefix": "8389ccb3b77e5e5f7ec42f57a2f52bb031c65edf854f4135ed8aa8f760c47ef6",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint-2.5.3.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "f8a1a5c77fa6f4dadfbc06a37866b274a5a254bd9547736e0b3163adbc35c8aa",
+        "sha256_in_prefix": "f8a1a5c77fa6f4dadfbc06a37866b274a5a254bd9547736e0b3163adbc35c8aa",
+        "size_in_bytes": 79
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint-2.5.3.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "5944f01ccd99704c4ef954afb2cd7c00c16c40bf9771683a3b7fccc286d67e6c",
+        "sha256_in_prefix": "5944f01ccd99704c4ef954afb2cd7c00c16c40bf9771683a3b7fccc286d67e6c",
+        "size_in_bytes": 137
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint-2.5.3.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "8fa67d8bffe922e6a20a46ba525f58232eb22396b0e506c2b6574bbd994c92c1",
+        "sha256_in_prefix": "8fa67d8bffe922e6a20a46ba525f58232eb22396b0e506c2b6574bbd994c92c1",
+        "size_in_bytes": 7
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "bf83fabbe76cc69da8abb411547dbd7bb053e0ce5b767fbc6196f08de6da59ed",
+        "sha256_in_prefix": "bf83fabbe76cc69da8abb411547dbd7bb053e0ce5b767fbc6196f08de6da59ed",
+        "size_in_bytes": 1159
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "1d18dafb621fee35fa14c179758eee31550eda4277234634b9f94ad9c903039b",
+        "sha256_in_prefix": "1d18dafb621fee35fa14c179758eee31550eda4277234634b9f94ad9c903039b",
+        "size_in_bytes": 585
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/__pkginfo__.py",
+        "path_type": "hardlink",
+        "sha256": "cbce835e7083af6e4c4bf37497cd76aaf225bd02894aaf3115bb765cd61eb759",
+        "sha256_in_prefix": "cbce835e7083af6e4c4bf37497cd76aaf225bd02894aaf3115bb765cd61eb759",
+        "size_in_bytes": 3849
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "f70b40794c8472934bdde91e569ea97ee97efb8632668083397bd70739454e5e",
+        "sha256_in_prefix": "f70b40794c8472934bdde91e569ea97ee97efb8632668083397bd70739454e5e",
+        "size_in_bytes": 1061
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/__pycache__/__main__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "d5f4458bdc48d9271cacbd6d18b33e36c9608477b61246b199ac1467c53c3593",
+        "sha256_in_prefix": "d5f4458bdc48d9271cacbd6d18b33e36c9608477b61246b199ac1467c53c3593",
+        "size_in_bytes": 275
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/__pycache__/__pkginfo__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "867fea64cea9fb2967e793cb17697b0392486c5dedebcb4f599cebce0b1ed6f8",
+        "sha256_in_prefix": "867fea64cea9fb2967e793cb17697b0392486c5dedebcb4f599cebce0b1ed6f8",
+        "size_in_bytes": 2682
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/__pycache__/config.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "e48168708da8f6ce4ae61d46fe7a85c2259cb00cc0207c134fb10e22e5e6a7fb",
+        "sha256_in_prefix": "e48168708da8f6ce4ae61d46fe7a85c2259cb00cc0207c134fb10e22e5e6a7fb",
+        "size_in_bytes": 27456
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/__pycache__/constants.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "5dde2c380e6ee9641519f041a2642c94863138d3fac2da678ae537e554e40572",
+        "sha256_in_prefix": "5dde2c380e6ee9641519f041a2642c94863138d3fac2da678ae537e554e40572",
+        "size_in_bytes": 999
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/__pycache__/epylint.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "438918e120d99dcee811467dc23d1bcf254e94a368356c1c01a6c473a484b07f",
+        "sha256_in_prefix": "438918e120d99dcee811467dc23d1bcf254e94a368356c1c01a6c473a484b07f",
+        "size_in_bytes": 4966
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/__pycache__/exceptions.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "d68ff5ec27f6dfdc64d43ef606cf0314046bd91a1b5b3672de397238013dfb81",
+        "sha256_in_prefix": "d68ff5ec27f6dfdc64d43ef606cf0314046bd91a1b5b3672de397238013dfb81",
+        "size_in_bytes": 1280
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/__pycache__/graph.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "31a19bceb5a825269033c6fdebb0ba5205655afdf4066281072eae9854c3db51",
+        "sha256_in_prefix": "31a19bceb5a825269033c6fdebb0ba5205655afdf4066281072eae9854c3db51",
+        "size_in_bytes": 5041
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/__pycache__/interfaces.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "d2c2dd967e7a2f8175a0918923076b3a099fdd76c8c362d8232b5a5771cc774e",
+        "sha256_in_prefix": "d2c2dd967e7a2f8175a0918923076b3a099fdd76c8c362d8232b5a5771cc774e",
+        "size_in_bytes": 3690
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/__pycache__/testutils.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "459c7920891f8aad645da3de9694c6d22a7a4715e57bca83e236a35f026ab870",
+        "sha256_in_prefix": "459c7920891f8aad645da3de9694c6d22a7a4715e57bca83e236a35f026ab870",
+        "size_in_bytes": 20751
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/checkers/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "f77fc7591b7ceb35a4241677ac18cbe7ef808f3068f8f2ab2b452cedeed74d52",
+        "sha256_in_prefix": "f77fc7591b7ceb35a4241677ac18cbe7ef808f3068f8f2ab2b452cedeed74d52",
+        "size_in_bytes": 2197
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/checkers/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "ccb6e88c70d5b1b34787a9befea67aeea1c73792dc2255292cccb5f419f43c2a",
+        "sha256_in_prefix": "ccb6e88c70d5b1b34787a9befea67aeea1c73792dc2255292cccb5f419f43c2a",
+        "size_in_bytes": 1551
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/checkers/__pycache__/async.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "f142f60e9fe3df67fe444d4236b4e7391909954c4aeb642da163d7396a0de084",
+        "sha256_in_prefix": "f142f60e9fe3df67fe444d4236b4e7391909954c4aeb642da163d7396a0de084",
+        "size_in_bytes": 2678
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/checkers/__pycache__/base.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "d0462debd13e19f6de1835d12743b45dd17cd4d3e80e4bf3d184f40609b11918",
+        "sha256_in_prefix": "d0462debd13e19f6de1835d12743b45dd17cd4d3e80e4bf3d184f40609b11918",
+        "size_in_bytes": 63634
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/checkers/__pycache__/base_checker.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "44efd7671da123dc24a31afbcc6576ef1c390bc9c0daa2b27945902dd6fffaa9",
+        "sha256_in_prefix": "44efd7671da123dc24a31afbcc6576ef1c390bc9c0daa2b27945902dd6fffaa9",
+        "size_in_bytes": 6538
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/checkers/__pycache__/classes.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "aaf48192900b37456728cc92e04758dfa3b494d3ed88b461246cda290d6329cf",
+        "sha256_in_prefix": "aaf48192900b37456728cc92e04758dfa3b494d3ed88b461246cda290d6329cf",
+        "size_in_bytes": 50476
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/checkers/__pycache__/design_analysis.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "6b85bbacd705e5d22b140d0b447d82b54d8bb6f0e55f7d68e77757914cb4dac8",
+        "sha256_in_prefix": "6b85bbacd705e5d22b140d0b447d82b54d8bb6f0e55f7d68e77757914cb4dac8",
+        "size_in_bytes": 11279
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/checkers/__pycache__/exceptions.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "5c8028a92dabaaece19e3fd89d21a5abb03f5c247eed54131127a122ab3310d8",
+        "sha256_in_prefix": "5c8028a92dabaaece19e3fd89d21a5abb03f5c247eed54131127a122ab3310d8",
+        "size_in_bytes": 15297
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/checkers/__pycache__/format.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "5513edcdd9a51615b2e6f334225692e9775d50fec90a13974d873e9700dae908",
+        "sha256_in_prefix": "5513edcdd9a51615b2e6f334225692e9775d50fec90a13974d873e9700dae908",
+        "size_in_bytes": 33327
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/checkers/__pycache__/imports.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "a7d0c1be29bda157529ed452046f7275f5197a4599952845ff9e523e07f90677",
+        "sha256_in_prefix": "a7d0c1be29bda157529ed452046f7275f5197a4599952845ff9e523e07f90677",
+        "size_in_bytes": 25385
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/checkers/__pycache__/logging.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "d4aa6d18c5c55084426e925cceecf55b62708403ce3937483d77db0220462017",
+        "sha256_in_prefix": "d4aa6d18c5c55084426e925cceecf55b62708403ce3937483d77db0220462017",
+        "size_in_bytes": 11623
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/checkers/__pycache__/misc.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "ffdd412b3ea7859d9861cfa5092d3b35ab7320e1d5c3a6f6447253f0aee33c01",
+        "sha256_in_prefix": "ffdd412b3ea7859d9861cfa5092d3b35ab7320e1d5c3a6f6447253f0aee33c01",
+        "size_in_bytes": 5077
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/checkers/__pycache__/newstyle.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "8bf52c4f75043534135f8d958765e3d5ea5927720faf4e6bcb6427c2f020bb09",
+        "sha256_in_prefix": "8bf52c4f75043534135f8d958765e3d5ea5927720faf4e6bcb6427c2f020bb09",
+        "size_in_bytes": 2407
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/checkers/__pycache__/python3.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "0674ae1af8b2cacb512c4bd45f81647d6823be4983cf66e2e2629d953f099a32",
+        "sha256_in_prefix": "0674ae1af8b2cacb512c4bd45f81647d6823be4983cf66e2e2629d953f099a32",
+        "size_in_bytes": 34901
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/checkers/__pycache__/raw_metrics.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "592bdb671177ebb008c4599db63f104aa8b94300bcbbed8fb12010d94043781a",
+        "sha256_in_prefix": "592bdb671177ebb008c4599db63f104aa8b94300bcbbed8fb12010d94043781a",
+        "size_in_bytes": 3239
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/checkers/__pycache__/refactoring.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "28138a2ff1f61f9e4d5fca28485f29fa62538421c645a36578522e2117d7dbe3",
+        "sha256_in_prefix": "28138a2ff1f61f9e4d5fca28485f29fa62538421c645a36578522e2117d7dbe3",
+        "size_in_bytes": 44893
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/checkers/__pycache__/similar.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "40ad4536aacc40d8619eb656f780487e189e9933a6e2914f40c77d0b60134dba",
+        "sha256_in_prefix": "40ad4536aacc40d8619eb656f780487e189e9933a6e2914f40c77d0b60134dba",
+        "size_in_bytes": 12303
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/checkers/__pycache__/spelling.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "f9e0d5f42b134c1c7faedff7ab8a8c0c80d4ebc7afe711855dba11ef61f8879a",
+        "sha256_in_prefix": "f9e0d5f42b134c1c7faedff7ab8a8c0c80d4ebc7afe711855dba11ef61f8879a",
+        "size_in_bytes": 9663
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/checkers/__pycache__/stdlib.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "f522d89a0ffc6bf0099bc3e67e7cffebde976c1cede9a976fcc004e0342f6f0d",
+        "sha256_in_prefix": "f522d89a0ffc6bf0099bc3e67e7cffebde976c1cede9a976fcc004e0342f6f0d",
+        "size_in_bytes": 12404
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/checkers/__pycache__/strings.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "5a1a4a31da5e6f93d523af3ba164fec425e73274657552b22b6ff02d72254d53",
+        "sha256_in_prefix": "5a1a4a31da5e6f93d523af3ba164fec425e73274657552b22b6ff02d72254d53",
+        "size_in_bytes": 22055
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/checkers/__pycache__/typecheck.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "b05515773f398fe39834b237b66da3abf3f0f5248c32313d8ab8250e6386bf1c",
+        "sha256_in_prefix": "b05515773f398fe39834b237b66da3abf3f0f5248c32313d8ab8250e6386bf1c",
+        "size_in_bytes": 41798
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/checkers/__pycache__/utils.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "46ff87f9f7ba3a6b7c980deea31832325ac70eff7a04abc9f79207231489d9c1",
+        "sha256_in_prefix": "46ff87f9f7ba3a6b7c980deea31832325ac70eff7a04abc9f79207231489d9c1",
+        "size_in_bytes": 32618
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/checkers/__pycache__/variables.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "b2b2dfefb8b01f8ff46c511db14dca105ef01e4d63718f6368a440eb4d71a270",
+        "sha256_in_prefix": "b2b2dfefb8b01f8ff46c511db14dca105ef01e4d63718f6368a440eb4d71a270",
+        "size_in_bytes": 45167
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/checkers/async.py",
+        "path_type": "hardlink",
+        "sha256": "a7e128f24b8ca6ff83f09bb5a7714000aacddcfd8e22e06934cfd0c4c15c7b60",
+        "sha256_in_prefix": "a7e128f24b8ca6ff83f09bb5a7714000aacddcfd8e22e06934cfd0c4c15c7b60",
+        "size_in_bytes": 3518
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/checkers/base.py",
+        "path_type": "hardlink",
+        "sha256": "9db0af7d573fda45231dd265441142c35757ef0d8fa798f39f4d2f9d0de31c2f",
+        "sha256_in_prefix": "9db0af7d573fda45231dd265441142c35757ef0d8fa798f39f4d2f9d0de31c2f",
+        "size_in_bytes": 96248
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/checkers/base_checker.py",
+        "path_type": "hardlink",
+        "sha256": "27cfef877612d0a9e64699fa48b12b13f6c290ad78fd0a39d5d6a8f127ae2df5",
+        "sha256_in_prefix": "27cfef877612d0a9e64699fa48b12b13f6c290ad78fd0a39d5d6a8f127ae2df5",
+        "size_in_bytes": 7664
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/checkers/classes.py",
+        "path_type": "hardlink",
+        "sha256": "440886b3fddb37b7cba52abd0c4f23c154df16943320443bb2fe4daf35284ecc",
+        "sha256_in_prefix": "440886b3fddb37b7cba52abd0c4f23c154df16943320443bb2fe4daf35284ecc",
+        "size_in_bytes": 79023
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/checkers/design_analysis.py",
+        "path_type": "hardlink",
+        "sha256": "0aba328c92ffa7c1192526f351710d9b1251bc0751be12cf8d70188576e4fe95",
+        "sha256_in_prefix": "0aba328c92ffa7c1192526f351710d9b1251bc0751be12cf8d70188576e4fe95",
+        "size_in_bytes": 16861
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/checkers/exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "a68fb20a22e07043724b2906b6f820709d84562d079c03621ce8f3ab184fc133",
+        "sha256_in_prefix": "a68fb20a22e07043724b2906b6f820709d84562d079c03621ce8f3ab184fc133",
+        "size_in_bytes": 21410
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/checkers/format.py",
+        "path_type": "hardlink",
+        "sha256": "4e886a13ed542fd3082e5b3aeb23e192fa4a7ecf46740dc883575762aee73cf4",
+        "sha256_in_prefix": "4e886a13ed542fd3082e5b3aeb23e192fa4a7ecf46740dc883575762aee73cf4",
+        "size_in_bytes": 50762
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/checkers/imports.py",
+        "path_type": "hardlink",
+        "sha256": "5cab74cbb66df56d1288bcb4c85e526c6dc6b7f8f959cc3337cd830340a40288",
+        "sha256_in_prefix": "5cab74cbb66df56d1288bcb4c85e526c6dc6b7f8f959cc3337cd830340a40288",
+        "size_in_bytes": 38328
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/checkers/logging.py",
+        "path_type": "hardlink",
+        "sha256": "b7f10ce6901209707864ba60566d4ee1611708fd3c2bc673c850aa4937f3df73",
+        "sha256_in_prefix": "b7f10ce6901209707864ba60566d4ee1611708fd3c2bc673c850aa4937f3df73",
+        "size_in_bytes": 15919
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/checkers/misc.py",
+        "path_type": "hardlink",
+        "sha256": "4e0ba53983d09acc36bc0bf1ba9794866889c035a0915a2803d035e06aa15d6f",
+        "sha256_in_prefix": "4e0ba53983d09acc36bc0bf1ba9794866889c035a0915a2803d035e06aa15d6f",
+        "size_in_bytes": 7241
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/checkers/newstyle.py",
+        "path_type": "hardlink",
+        "sha256": "ae2271ffd8c0a04b07e7333506d298fe89cf6f51da4ed40157d99985397c5e8b",
+        "sha256_in_prefix": "ae2271ffd8c0a04b07e7333506d298fe89cf6f51da4ed40157d99985397c5e8b",
+        "size_in_bytes": 5067
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/checkers/python3.py",
+        "path_type": "hardlink",
+        "sha256": "321bcc5ce2655f1ff05417f7b2b46a579c8c73ba82abac9e8bae8a0abf49c135",
+        "sha256_in_prefix": "321bcc5ce2655f1ff05417f7b2b46a579c8c73ba82abac9e8bae8a0abf49c135",
+        "size_in_bytes": 52982
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/checkers/raw_metrics.py",
+        "path_type": "hardlink",
+        "sha256": "352f7881e09b60e68c20101bddf3f1e1cbed800d03de570422e9aeec86e0b722",
+        "sha256_in_prefix": "352f7881e09b60e68c20101bddf3f1e1cbed800d03de570422e9aeec86e0b722",
+        "size_in_bytes": 3959
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/checkers/refactoring.py",
+        "path_type": "hardlink",
+        "sha256": "0779f853a526939db87e252395918b831a3d62840d34e07ed82ce080c2cc7395",
+        "sha256_in_prefix": "0779f853a526939db87e252395918b831a3d62840d34e07ed82ce080c2cc7395",
+        "size_in_bytes": 62100
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/checkers/similar.py",
+        "path_type": "hardlink",
+        "sha256": "f649d819f74cc6b230558b2687ebdf4204dfbaa7e476ab112308ec18d200cab8",
+        "sha256_in_prefix": "f649d819f74cc6b230558b2687ebdf4204dfbaa7e476ab112308ec18d200cab8",
+        "size_in_bytes": 15246
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/checkers/spelling.py",
+        "path_type": "hardlink",
+        "sha256": "5fd7e427765bfb5f45c8a1e1890c0dc20e0e0136a9fff8366fdfa74fa196fc7e",
+        "sha256_in_prefix": "5fd7e427765bfb5f45c8a1e1890c0dc20e0e0136a9fff8366fdfa74fa196fc7e",
+        "size_in_bytes": 13806
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/checkers/stdlib.py",
+        "path_type": "hardlink",
+        "sha256": "8a760fffe802c32a759af33429bc089d2621d400f1b171c86693e1f51c37640d",
+        "sha256_in_prefix": "8a760fffe802c32a759af33429bc089d2621d400f1b171c86693e1f51c37640d",
+        "size_in_bytes": 17638
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/checkers/strings.py",
+        "path_type": "hardlink",
+        "sha256": "97a5d46d49c277b0003c8a252a882e318c0deeb6fa105ef5e0cc89c6d61235cc",
+        "sha256_in_prefix": "97a5d46d49c277b0003c8a252a882e318c0deeb6fa105ef5e0cc89c6d61235cc",
+        "size_in_bytes": 38062
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/checkers/typecheck.py",
+        "path_type": "hardlink",
+        "sha256": "cb575db602aaed1819601e71aaef0f2189dd4338b03aef9d17abf18c981124ba",
+        "sha256_in_prefix": "cb575db602aaed1819601e71aaef0f2189dd4338b03aef9d17abf18c981124ba",
+        "size_in_bytes": 71565
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/checkers/utils.py",
+        "path_type": "hardlink",
+        "sha256": "ec5bef9168194a42053a695a59c730eebdca7e97b5ff2b5747fd9572ef78cb8a",
+        "sha256_in_prefix": "ec5bef9168194a42053a695a59c730eebdca7e97b5ff2b5747fd9572ef78cb8a",
+        "size_in_bytes": 44152
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/checkers/variables.py",
+        "path_type": "hardlink",
+        "sha256": "47df502d65e600ba6f6fe8a9db477c5da3d6aeae01f66be8f452b58233af5aea",
+        "sha256_in_prefix": "47df502d65e600ba6f6fe8a9db477c5da3d6aeae01f66be8f452b58233af5aea",
+        "size_in_bytes": 79895
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/config.py",
+        "path_type": "hardlink",
+        "sha256": "6db3298269eae76351d099b17681d0cab09b0d3740bebdc524e1bd2a9beebe86",
+        "sha256_in_prefix": "6db3298269eae76351d099b17681d0cab09b0d3740bebdc524e1bd2a9beebe86",
+        "size_in_bytes": 34938
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/constants.py",
+        "path_type": "hardlink",
+        "sha256": "9590c66e29f4315893d14acb4865f6c54aa3130f519301484a4cdfa11d761fc6",
+        "sha256_in_prefix": "9590c66e29f4315893d14acb4865f6c54aa3130f519301484a4cdfa11d761fc6",
+        "size_in_bytes": 1160
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/epylint.py",
+        "path_type": "hardlink",
+        "sha256": "48efc2abe2e3adaab63b387b2374103b75372d27fa347dc0b975f0ce4ead193b",
+        "sha256_in_prefix": "48efc2abe2e3adaab63b387b2374103b75372d27fa347dc0b975f0ce4ead193b",
+        "size_in_bytes": 7173
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "e0a2778ecdf30b93e7c13b2a9d6f7846dfdfb3ea75fb61ed34f53614fd6edcc4",
+        "sha256_in_prefix": "e0a2778ecdf30b93e7c13b2a9d6f7846dfdfb3ea75fb61ed34f53614fd6edcc4",
+        "size_in_bytes": 1147
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/extensions/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/extensions/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "c215e86e17ce7e416448512be59ccbcd32161d87b09100f78d5caf41a138e4ee",
+        "sha256_in_prefix": "c215e86e17ce7e416448512be59ccbcd32161d87b09100f78d5caf41a138e4ee",
+        "size_in_bytes": 148
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/extensions/__pycache__/_check_docs_utils.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "7664f84fc5d8c27fa86eb663e45c6e439489c115edf7bb05b5e303da397aebcd",
+        "sha256_in_prefix": "7664f84fc5d8c27fa86eb663e45c6e439489c115edf7bb05b5e303da397aebcd",
+        "size_in_bytes": 19415
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/extensions/__pycache__/bad_builtin.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "e7003b6fe42edd640dee6ba5d3ad0a3e7cec2addb7668aeb93313f03226ef6ea",
+        "sha256_in_prefix": "e7003b6fe42edd640dee6ba5d3ad0a3e7cec2addb7668aeb93313f03226ef6ea",
+        "size_in_bytes": 1940
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/extensions/__pycache__/broad_try_clause.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "b3f661080ae82d959ee09e8f09b2351e5bff6ff194538c857280d43bc2008f5f",
+        "sha256_in_prefix": "b3f661080ae82d959ee09e8f09b2351e5bff6ff194538c857280d43bc2008f5f",
+        "size_in_bytes": 2227
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/extensions/__pycache__/check_docs.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "338925ed10f34944135e356ad6bfc48384868bf18e7a57a12eefe7ccfd69ce5b",
+        "sha256_in_prefix": "338925ed10f34944135e356ad6bfc48384868bf18e7a57a12eefe7ccfd69ce5b",
+        "size_in_bytes": 658
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/extensions/__pycache__/check_elif.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "f7e37b45837b73455a833f82b8861b6a212b48b129ade0d5edb131e9955d5c28",
+        "sha256_in_prefix": "f7e37b45837b73455a833f82b8861b6a212b48b129ade0d5edb131e9955d5c28",
+        "size_in_bytes": 2629
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/extensions/__pycache__/comparetozero.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "84ae15674d396fe50d28e7f8432d970350e75e0dc60ed077d60ce36cc160564e",
+        "sha256_in_prefix": "84ae15674d396fe50d28e7f8432d970350e75e0dc60ed077d60ce36cc160564e",
+        "size_in_bytes": 1916
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/extensions/__pycache__/docparams.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "572444d3312107681cfbc9efa1a6c8b255e91c3ffe6b628e8a01dd41acc936a1",
+        "sha256_in_prefix": "572444d3312107681cfbc9efa1a6c8b255e91c3ffe6b628e8a01dd41acc936a1",
+        "size_in_bytes": 14650
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/extensions/__pycache__/docstyle.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "17b60cdfbb54425d5c9402f0acca67c7313c709d15eb3e03c7b57fc6d85c06f3",
+        "sha256_in_prefix": "17b60cdfbb54425d5c9402f0acca67c7313c709d15eb3e03c7b57fc6d85c06f3",
+        "size_in_bytes": 2413
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/extensions/__pycache__/emptystring.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "ab81855e1d051729f9292bbb176984bff9cf698543aa4ce05356cd0f648491b0",
+        "sha256_in_prefix": "ab81855e1d051729f9292bbb176984bff9cf698543aa4ce05356cd0f648491b0",
+        "size_in_bytes": 1976
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/extensions/__pycache__/mccabe.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "55a4958569e39a1b0fb810a1bf2d83521bf2b303464a528b16ef754ff11275a9",
+        "sha256_in_prefix": "55a4958569e39a1b0fb810a1bf2d83521bf2b303464a528b16ef754ff11275a9",
+        "size_in_bytes": 5611
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/extensions/__pycache__/overlapping_exceptions.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "5644aa6f62f0f5855cd133682244538ad7e060dbff3151552b56d5cef0c665cb",
+        "sha256_in_prefix": "5644aa6f62f0f5855cd133682244538ad7e060dbff3151552b56d5cef0c665cb",
+        "size_in_bytes": 2550
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/extensions/__pycache__/redefined_variable_type.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "66c5a5829dcd2ad44286d1ab3ea5f5917985f8ea3ba0389bc8c3bae411456c45",
+        "sha256_in_prefix": "66c5a5829dcd2ad44286d1ab3ea5f5917985f8ea3ba0389bc8c3bae411456c45",
+        "size_in_bytes": 3205
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/extensions/_check_docs_utils.py",
+        "path_type": "hardlink",
+        "sha256": "def5e596739fdecacbe0d652290cbb2bde434fbbbcdbebfb81ff4a838cc8dddb",
+        "sha256_in_prefix": "def5e596739fdecacbe0d652290cbb2bde434fbbbcdbebfb81ff4a838cc8dddb",
+        "size_in_bytes": 23564
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/extensions/bad_builtin.py",
+        "path_type": "hardlink",
+        "sha256": "faa7bf0c19f378d01f81a3523658a45b22cf2fd5b9810526905b041906465bce",
+        "sha256_in_prefix": "faa7bf0c19f378d01f81a3523658a45b22cf2fd5b9810526905b041906465bce",
+        "size_in_bytes": 2504
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/extensions/broad_try_clause.py",
+        "path_type": "hardlink",
+        "sha256": "0ac9e94b4b9e3f89d66bb6bc05333ec3b7e56283a1b7edd33c769819080d0b60",
+        "sha256_in_prefix": "0ac9e94b4b9e3f89d66bb6bc05333ec3b7e56283a1b7edd33c769819080d0b60",
+        "size_in_bytes": 2326
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/extensions/check_docs.py",
+        "path_type": "hardlink",
+        "sha256": "96348524e50ad31c1106f9a964e1d7b28b17e2228a6bf6304ccd153cbbeb9897",
+        "sha256_in_prefix": "96348524e50ad31c1106f9a964e1d7b28b17e2228a6bf6304ccd153cbbeb9897",
+        "size_in_bytes": 790
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/extensions/check_elif.py",
+        "path_type": "hardlink",
+        "sha256": "6d450ebfc45bfc067e25d7589d7e1d06499884cb1ef2a4dcac382c35ae594664",
+        "sha256_in_prefix": "6d450ebfc45bfc067e25d7589d7e1d06499884cb1ef2a4dcac382c35ae594664",
+        "size_in_bytes": 2614
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/extensions/comparetozero.py",
+        "path_type": "hardlink",
+        "sha256": "4ac006694b89edc4d6cfa214c274734f114d0658ca6c36919a676979985c16a1",
+        "sha256_in_prefix": "4ac006694b89edc4d6cfa214c274734f114d0658ca6c36919a676979985c16a1",
+        "size_in_bytes": 2463
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/extensions/docparams.py",
+        "path_type": "hardlink",
+        "sha256": "5d325fe34fbf24241c8e3096d09c349117a1b64b38ef7df416c6120ec8d52ca1",
+        "sha256_in_prefix": "5d325fe34fbf24241c8e3096d09c349117a1b64b38ef7df416c6120ec8d52ca1",
+        "size_in_bytes": 20370
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/extensions/docstyle.py",
+        "path_type": "hardlink",
+        "sha256": "f6aced7d77d18ff88261d069aaa66b31b9217a3db419a581208042ab46566981",
+        "sha256_in_prefix": "f6aced7d77d18ff88261d069aaa66b31b9217a3db419a581208042ab46566981",
+        "size_in_bytes": 3029
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/extensions/emptystring.py",
+        "path_type": "hardlink",
+        "sha256": "a69821a250825e8f10e6a149dd8cd4fa806e770a7ad9eca4312a5a6059fe96e4",
+        "sha256_in_prefix": "a69821a250825e8f10e6a149dd8cd4fa806e770a7ad9eca4312a5a6059fe96e4",
+        "size_in_bytes": 2562
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/extensions/mccabe.py",
+        "path_type": "hardlink",
+        "sha256": "ae552e264747ec4cc250f9d1d403ab430831a3c1d1dd338d539d7dc4076df66f",
+        "sha256_in_prefix": "ae552e264747ec4cc250f9d1d403ab430831a3c1d1dd338d539d7dc4076df66f",
+        "size_in_bytes": 6278
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/extensions/overlapping_exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "42c8bba8817ab31dfa1d857c7232a33dc81845934f885220e0d11c79f8c61728",
+        "sha256_in_prefix": "42c8bba8817ab31dfa1d857c7232a33dc81845934f885220e0d11c79f8c61728",
+        "size_in_bytes": 3266
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/extensions/redefined_variable_type.py",
+        "path_type": "hardlink",
+        "sha256": "46b1befae010bede4ff39e52101ec1f1a56d6f5f13491fe6adb494ca1815f164",
+        "sha256_in_prefix": "46b1befae010bede4ff39e52101ec1f1a56d6f5f13491fe6adb494ca1815f164",
+        "size_in_bytes": 4327
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/graph.py",
+        "path_type": "hardlink",
+        "sha256": "997ed280e5ad713bb51d0d923b558d7b567609a84f4e55afa0aa5d894d660850",
+        "sha256_in_prefix": "997ed280e5ad713bb51d0d923b558d7b567609a84f4e55afa0aa5d894d660850",
+        "size_in_bytes": 6380
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/interfaces.py",
+        "path_type": "hardlink",
+        "sha256": "e0b37d1298068552eed67a7d877665044ef0655fdf183e402bc3d2f3af76a1c7",
+        "sha256_in_prefix": "e0b37d1298068552eed67a7d877665044ef0655fdf183e402bc3d2f3af76a1c7",
+        "size_in_bytes": 3229
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/lint/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "164aef7d56358136fab3278692f343337efed295d73a647caaed2283de4243d3",
+        "sha256_in_prefix": "164aef7d56358136fab3278692f343337efed295d73a647caaed2283de4243d3",
+        "size_in_bytes": 4188
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/lint/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "ee3745952905e975892f42747874f63a21d05a6c21f16e35d82a3be2da3ac851",
+        "sha256_in_prefix": "ee3745952905e975892f42747874f63a21d05a6c21f16e35d82a3be2da3ac851",
+        "size_in_bytes": 972
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/lint/__pycache__/check_parallel.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "f4ef9b3888de085b99596651a690137b22b1f979629c666563d8564eeb0008b0",
+        "sha256_in_prefix": "f4ef9b3888de085b99596651a690137b22b1f979629c666563d8564eeb0008b0",
+        "size_in_bytes": 2529
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/lint/__pycache__/pylinter.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "cdbe5f2700de87eb8e910f2ed90047403fe7677a6b8284b74ed56a779f40695c",
+        "sha256_in_prefix": "cdbe5f2700de87eb8e910f2ed90047403fe7677a6b8284b74ed56a779f40695c",
+        "size_in_bytes": 31937
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/lint/__pycache__/report_functions.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "5ce2b4a7f7f56a850b82dbcb3acd7e72f9ffd2065120c026d80f3e0c40dc0b28",
+        "sha256_in_prefix": "5ce2b4a7f7f56a850b82dbcb3acd7e72f9ffd2065120c026d80f3e0c40dc0b28",
+        "size_in_bytes": 2365
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/lint/__pycache__/run.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "8d0cc0140d7bdfc00c0deedf9ea0ba8c5fc10e3c4fd768736377820efa2360c5",
+        "sha256_in_prefix": "8d0cc0140d7bdfc00c0deedf9ea0ba8c5fc10e3c4fd768736377820efa2360c5",
+        "size_in_bytes": 11054
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/lint/__pycache__/utils.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "efd5ab4f99a1ceea256c41204ea562e46a1e1766cc535bda15f08b9c1e7c6504",
+        "sha256_in_prefix": "efd5ab4f99a1ceea256c41204ea562e46a1e1766cc535bda15f08b9c1e7c6504",
+        "size_in_bytes": 2118
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/lint/check_parallel.py",
+        "path_type": "hardlink",
+        "sha256": "367621382843b71cc805f44ac67935b4a148b5fd2b1d670fae91edef3f4df1fe",
+        "sha256_in_prefix": "367621382843b71cc805f44ac67935b4a148b5fd2b1d670fae91edef3f4df1fe",
+        "size_in_bytes": 3870
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/lint/pylinter.py",
+        "path_type": "hardlink",
+        "sha256": "f0c95931f587b90ecc9832cc324b2776137db632d0eb082939d8f5e6a63ca13b",
+        "sha256_in_prefix": "f0c95931f587b90ecc9832cc324b2776137db632d0eb082939d8f5e6a63ca13b",
+        "size_in_bytes": 46060
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/lint/report_functions.py",
+        "path_type": "hardlink",
+        "sha256": "e2307b6d11c434576f638c5731a9880b555a41dad8772a7eeb6f4aba357ea48f",
+        "sha256_in_prefix": "e2307b6d11c434576f638c5731a9880b555a41dad8772a7eeb6f4aba357ea48f",
+        "size_in_bytes": 2750
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/lint/run.py",
+        "path_type": "hardlink",
+        "sha256": "0f664ec94274114cda906cd87c934b90026ebba1d38d93d0a3b1c3aea98d1edd",
+        "sha256_in_prefix": "0f664ec94274114cda906cd87c934b90026ebba1d38d93d0a3b1c3aea98d1edd",
+        "size_in_bytes": 16904
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/lint/utils.py",
+        "path_type": "hardlink",
+        "sha256": "82543947d08d7e90cbe8a8fd972b2795438ea4e1ae30ffec2c0da05290359b6c",
+        "sha256_in_prefix": "82543947d08d7e90cbe8a8fd972b2795438ea4e1ae30ffec2c0da05290359b6c",
+        "size_in_bytes": 2308
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/message/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "f6ebc53e32923e904f35fae4dc6839aee87e186f53e6cc3ea6f4e1bf2d777365",
+        "sha256_in_prefix": "f6ebc53e32923e904f35fae4dc6839aee87e186f53e6cc3ea6f4e1bf2d777365",
+        "size_in_bytes": 2801
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/message/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "7e8ca97c1ef9851f8fa811f78a483396b93a3f9a7420babe8cdce89678fad500",
+        "sha256_in_prefix": "7e8ca97c1ef9851f8fa811f78a483396b93a3f9a7420babe8cdce89678fad500",
+        "size_in_bytes": 633
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/message/__pycache__/message.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "5dee3a83a062d8d721a7aad72bf8d9816e6e1adff4c3baa7837d70d52ae89bd7",
+        "sha256_in_prefix": "5dee3a83a062d8d721a7aad72bf8d9816e6e1adff4c3baa7837d70d52ae89bd7",
+        "size_in_bytes": 1212
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/message/__pycache__/message_definition.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "8e09db046fdeb93c306333a12a596f6c2b5ffa878c0827aa903ab91cb84aadb5",
+        "sha256_in_prefix": "8e09db046fdeb93c306333a12a596f6c2b5ffa878c0827aa903ab91cb84aadb5",
+        "size_in_bytes": 2983
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/message/__pycache__/message_definition_store.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "9fcb3b149658deeb582e1154d6a87f28d10c840a4f94ef99c88311fd12c0141a",
+        "sha256_in_prefix": "9fcb3b149658deeb582e1154d6a87f28d10c840a4f94ef99c88311fd12c0141a",
+        "size_in_bytes": 4082
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/message/__pycache__/message_handler_mix_in.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "23dd384baaa2de3d58d325b8c20e28d7e02b056056ab683b2b595ab6b808a914",
+        "sha256_in_prefix": "23dd384baaa2de3d58d325b8c20e28d7e02b056056ab683b2b595ab6b808a914",
+        "size_in_bytes": 11108
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/message/__pycache__/message_id_store.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "75961cf0155243c674b8c6af008b4acf77f12fe9b1858e84815a68354e9ffd4e",
+        "sha256_in_prefix": "75961cf0155243c674b8c6af008b4acf77f12fe9b1858e84815a68354e9ffd4e",
+        "size_in_bytes": 4956
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/message/message.py",
+        "path_type": "hardlink",
+        "sha256": "8167f32a135bb23f213905cd8632379db4f74d3d3c025d1a3e3e3c6b2488501a",
+        "sha256_in_prefix": "8167f32a135bb23f213905cd8632379db4f74d3d3c025d1a3e3e3c6b2488501a",
+        "size_in_bytes": 1299
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/message/message_definition.py",
+        "path_type": "hardlink",
+        "sha256": "a3bcdc91c88c12e9caa22df0cfb5369b9d3b1ec5c3e08787b8f27e6a7511ca2f",
+        "sha256_in_prefix": "a3bcdc91c88c12e9caa22df0cfb5369b9d3b1ec5c3e08787b8f27e6a7511ca2f",
+        "size_in_bytes": 2993
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/message/message_definition_store.py",
+        "path_type": "hardlink",
+        "sha256": "6908bfe19fed130f65c50ca7d3bfb0fc16a924b774e0e719209e40e2d2e0c61a",
+        "sha256_in_prefix": "6908bfe19fed130f65c50ca7d3bfb0fc16a924b774e0e719209e40e2d2e0c61a",
+        "size_in_bytes": 3535
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/message/message_handler_mix_in.py",
+        "path_type": "hardlink",
+        "sha256": "05c1e56ab5469bec9264e98c38a4a627e8d09508555c0e87629170e29d7f6587",
+        "sha256_in_prefix": "05c1e56ab5469bec9264e98c38a4a627e8d09508555c0e87629170e29d7f6587",
+        "size_in_bytes": 15208
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/message/message_id_store.py",
+        "path_type": "hardlink",
+        "sha256": "36b8b8891a3db7941e7f324ff4c534a61cfae9d059de27a754d46a40d4280da7",
+        "sha256_in_prefix": "36b8b8891a3db7941e7f324ff4c534a61cfae9d059de27a754d46a40d4280da7",
+        "size_in_bytes": 5291
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/pyreverse/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "aee9da7c29f4bde834762fa2f13ced30694a1093b7420d35308086a83819d1cd",
+        "sha256_in_prefix": "aee9da7c29f4bde834762fa2f13ced30694a1093b7420d35308086a83819d1cd",
+        "size_in_bytes": 202
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/pyreverse/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "b790d22ce60d415c285047e00ad40014e14a1873d86ade818c6d8eb244f94035",
+        "sha256_in_prefix": "b790d22ce60d415c285047e00ad40014e14a1873d86ade818c6d8eb244f94035",
+        "size_in_bytes": 208
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/pyreverse/__pycache__/diadefslib.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "d7f1e551262f66625651d1b99ef33f50066b014e6422c746ab44f0fbcf394fd9",
+        "sha256_in_prefix": "d7f1e551262f66625651d1b99ef33f50066b014e6422c746ab44f0fbcf394fd9",
+        "size_in_bytes": 7610
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/pyreverse/__pycache__/diagrams.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "fae8a7a1d91fd7fc00b001071d79ee25d12305797bfe108b34054292faee254d",
+        "sha256_in_prefix": "fae8a7a1d91fd7fc00b001071d79ee25d12305797bfe108b34054292faee254d",
+        "size_in_bytes": 8718
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/pyreverse/__pycache__/inspector.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "8963093206f44323d499e630d0f386c4db8130497fce11b5ebded373775cb360",
+        "sha256_in_prefix": "8963093206f44323d499e630d0f386c4db8130497fce11b5ebded373775cb360",
+        "size_in_bytes": 10242
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/pyreverse/__pycache__/main.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "9007c9ba177eaf93e7a85941cb0f23dd13e68a3b1fcc8e58ce739d23e2c2d3fc",
+        "sha256_in_prefix": "9007c9ba177eaf93e7a85941cb0f23dd13e68a3b1fcc8e58ce739d23e2c2d3fc",
+        "size_in_bytes": 4562
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/pyreverse/__pycache__/utils.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "b1e23ce8566767e707075683ccd3221fddcb35d9d2fbb25f63564513fa99f029",
+        "sha256_in_prefix": "b1e23ce8566767e707075683ccd3221fddcb35d9d2fbb25f63564513fa99f029",
+        "size_in_bytes": 5660
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/pyreverse/__pycache__/vcgutils.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "8f2019a1aa6b01b3d7c97bce54c3c1744dbc8509fa6a9a8c338081eb54878595",
+        "sha256_in_prefix": "8f2019a1aa6b01b3d7c97bce54c3c1744dbc8509fa6a9a8c338081eb54878595",
+        "size_in_bytes": 4711
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/pyreverse/__pycache__/writer.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "1c8eba7058839622c423963dd737da453744d1c99a29d0ca740b232da8e2f9de",
+        "sha256_in_prefix": "1c8eba7058839622c423963dd737da453744d1c99a29d0ca740b232da8e2f9de",
+        "size_in_bytes": 7112
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/pyreverse/diadefslib.py",
+        "path_type": "hardlink",
+        "sha256": "0cb6850008522c0a9769e7a30e59d7e5f0f0569fcee5968254a55f22fcad61b4",
+        "sha256_in_prefix": "0cb6850008522c0a9769e7a30e59d7e5f0f0569fcee5968254a55f22fcad61b4",
+        "size_in_bytes": 8748
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/pyreverse/diagrams.py",
+        "path_type": "hardlink",
+        "sha256": "d443f77ca3f5ef58ea11d08fcf0d19ea7c6a5f53eebbba0430eb7198c07b7877",
+        "sha256_in_prefix": "d443f77ca3f5ef58ea11d08fcf0d19ea7c6a5f53eebbba0430eb7198c07b7877",
+        "size_in_bytes": 9029
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/pyreverse/inspector.py",
+        "path_type": "hardlink",
+        "sha256": "ab3ad37b601429ccc1ddb45f221c3b346b62c526733ba7ca330626045058ba32",
+        "sha256_in_prefix": "ab3ad37b601429ccc1ddb45f221c3b346b62c526733ba7ca330626045058ba32",
+        "size_in_bytes": 12257
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/pyreverse/main.py",
+        "path_type": "hardlink",
+        "sha256": "0c2c5cd32cd3bc620cac8d62341af8eca1b46e8756d195c0a2949135edbb0835",
+        "sha256_in_prefix": "0c2c5cd32cd3bc620cac8d62341af8eca1b46e8756d195c0a2949135edbb0835",
+        "size_in_bytes": 6528
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/pyreverse/utils.py",
+        "path_type": "hardlink",
+        "sha256": "208033164c5eccd9dd3a670da83cd756f7d18f3442bf67bf2996531d1f9f3aa3",
+        "sha256_in_prefix": "208033164c5eccd9dd3a670da83cd756f7d18f3442bf67bf2996531d1f9f3aa3",
+        "size_in_bytes": 6351
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/pyreverse/vcgutils.py",
+        "path_type": "hardlink",
+        "sha256": "ffa938379d54bf2a2c8a634c972767aa4011719be7724d39a5f154abb2874ddd",
+        "sha256_in_prefix": "ffa938379d54bf2a2c8a634c972767aa4011719be7724d39a5f154abb2874ddd",
+        "size_in_bytes": 6442
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/pyreverse/writer.py",
+        "path_type": "hardlink",
+        "sha256": "d74c20519fbc00d1e00af236735664ba4700799f9d7db27f3162fbe4ca110ae2",
+        "sha256_in_prefix": "d74c20519fbc00d1e00af236735664ba4700799f9d7db27f3162fbe4ca110ae2",
+        "size_in_bytes": 8003
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/reporters/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "19acbdf6324e2a03806882fe0e95200a5834e9986c76aab2df568677a1bd7972",
+        "sha256_in_prefix": "19acbdf6324e2a03806882fe0e95200a5834e9986c76aab2df568677a1bd7972",
+        "size_in_bytes": 1650
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/reporters/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "ddbc35c466f6d43f90c0b7f93477192691c3c8e294460e07faa3dda42551a0e3",
+        "sha256_in_prefix": "ddbc35c466f6d43f90c0b7f93477192691c3c8e294460e07faa3dda42551a0e3",
+        "size_in_bytes": 794
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/reporters/__pycache__/base_reporter.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "15ca4067a1d6d173189364aac9f9fd56bc83325d2d10f0f43417f5696e80e927",
+        "sha256_in_prefix": "15ca4067a1d6d173189364aac9f9fd56bc83325d2d10f0f43417f5696e80e927",
+        "size_in_bytes": 2753
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/reporters/__pycache__/collecting_reporter.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "56da6196a7acc36dbdc20a0f39772e7e8f6071dd64676b0242dd148ae0513b79",
+        "sha256_in_prefix": "56da6196a7acc36dbdc20a0f39772e7e8f6071dd64676b0242dd148ae0513b79",
+        "size_in_bytes": 798
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/reporters/__pycache__/json_reporter.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "2d0a1af84a25dc07ccec257e2e22653d5525601798ea33dbf7dcb0a26598a578",
+        "sha256_in_prefix": "2d0a1af84a25dc07ccec257e2e22653d5525601798ea33dbf7dcb0a26598a578",
+        "size_in_bytes": 1945
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/reporters/__pycache__/reports_handler_mix_in.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "0d123edc54bcfc0ce09c6007a3c641339bc4e3b66fcc616f68df2aa28d52e1c2",
+        "sha256_in_prefix": "0d123edc54bcfc0ce09c6007a3c641339bc4e3b66fcc616f68df2aa28d52e1c2",
+        "size_in_bytes": 2967
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/reporters/__pycache__/text.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "d4d24cca028c1ee7915c71999bfcd0bf194608210c3a3f3ac439dcee6d743fe9",
+        "sha256_in_prefix": "d4d24cca028c1ee7915c71999bfcd0bf194608210c3a3f3ac439dcee6d743fe9",
+        "size_in_bytes": 7279
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/reporters/base_reporter.py",
+        "path_type": "hardlink",
+        "sha256": "1e294d4955bf4001b7e2e63bddbd3578b94af913cc800eb63b8824d7dad5226f",
+        "sha256_in_prefix": "1e294d4955bf4001b7e2e63bddbd3578b94af913cc800eb63b8824d7dad5226f",
+        "size_in_bytes": 2031
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/reporters/collecting_reporter.py",
+        "path_type": "hardlink",
+        "sha256": "b45274aec4cdcfd8780b45399606ded6395000ecb439fd162c6aead903bb4ae8",
+        "sha256_in_prefix": "b45274aec4cdcfd8780b45399606ded6395000ecb439fd162c6aead903bb4ae8",
+        "size_in_bytes": 478
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/reporters/json_reporter.py",
+        "path_type": "hardlink",
+        "sha256": "6fe83cab1cd101e6df3ca96543fde51b7236132112c4e1be838c139186a0d97d",
+        "sha256_in_prefix": "6fe83cab1cd101e6df3ca96543fde51b7236132112c4e1be838c139186a0d97d",
+        "size_in_bytes": 1996
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/reporters/reports_handler_mix_in.py",
+        "path_type": "hardlink",
+        "sha256": "b7851c9a4e566b609a80d6c46de865af59fa1fee339919eb084bc8e7ba95ba28",
+        "sha256_in_prefix": "b7851c9a4e566b609a80d6c46de865af59fa1fee339919eb084bc8e7ba95ba28",
+        "size_in_bytes": 2704
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/reporters/text.py",
+        "path_type": "hardlink",
+        "sha256": "16e88f7c53324683c23d8a6a2b9dc3add9fe4eb598bad1948be8567bf3c34bf0",
+        "sha256_in_prefix": "16e88f7c53324683c23d8a6a2b9dc3add9fe4eb598bad1948be8567bf3c34bf0",
+        "size_in_bytes": 8081
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/reporters/ureports/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "8242c3fbdd92e59b8c2de91121d3b79b47b47733a2cde670064d6098b52fe7d6",
+        "sha256_in_prefix": "8242c3fbdd92e59b8c2de91121d3b79b47b47733a2cde670064d6098b52fe7d6",
+        "size_in_bytes": 3229
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/reporters/ureports/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "bd3b7d1cf710aeaeed8cc29d5a5c2a9cc5411bdd2ea91529334957fb88ecf24b",
+        "sha256_in_prefix": "bd3b7d1cf710aeaeed8cc29d5a5c2a9cc5411bdd2ea91529334957fb88ecf24b",
+        "size_in_bytes": 3043
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/reporters/ureports/__pycache__/nodes.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "fdf1594edf5ea94d382f8702f4f912b94ab7942ffc48b1cf01cd718fdfd87b24",
+        "sha256_in_prefix": "fdf1594edf5ea94d382f8702f4f912b94ab7942ffc48b1cf01cd718fdfd87b24",
+        "size_in_bytes": 5944
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/reporters/ureports/__pycache__/text_writer.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "c9d31bad103ef49ccd9c997f3cfced9a5ad18955cf3b8aa82ab176aa3804ec9c",
+        "sha256_in_prefix": "c9d31bad103ef49ccd9c997f3cfced9a5ad18955cf3b8aa82ab176aa3804ec9c",
+        "size_in_bytes": 3639
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/reporters/ureports/nodes.py",
+        "path_type": "hardlink",
+        "sha256": "9264a20b9aaa951105921b98c08fbeac0aeabdb439435a0e861a1ab40556b851",
+        "sha256_in_prefix": "9264a20b9aaa951105921b98c08fbeac0aeabdb439435a0e861a1ab40556b851",
+        "size_in_bytes": 5187
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/reporters/ureports/text_writer.py",
+        "path_type": "hardlink",
+        "sha256": "babf1e962999147ac10d604404743ddf524303febc58ae5fe16c08164d642543",
+        "sha256_in_prefix": "babf1e962999147ac10d604404743ddf524303febc58ae5fe16c08164d642543",
+        "size_in_bytes": 3373
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/testutils.py",
+        "path_type": "hardlink",
+        "sha256": "0e3bcf1f54d3d2e9775ee5e1581d37df6273b89aafb64c806c6b78ea148a60f9",
+        "sha256_in_prefix": "0e3bcf1f54d3d2e9775ee5e1581d37df6273b89aafb64c806c6b78ea148a60f9",
+        "size_in_bytes": 20377
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/utils/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "412e835dc3afcd73b39d46868f071b3f38750d069555b9e039ebd217f726ec2e",
+        "sha256_in_prefix": "412e835dc3afcd73b39d46868f071b3f38750d069555b9e039ebd217f726ec2e",
+        "size_in_bytes": 2882
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/utils/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "3120fcfba8ce5fc92f69bdd47d02229cb28f793f2988ae82eebd6f4705ba4970",
+        "sha256_in_prefix": "3120fcfba8ce5fc92f69bdd47d02229cb28f793f2988ae82eebd6f4705ba4970",
+        "size_in_bytes": 836
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/utils/__pycache__/ast_walker.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "0c101bb023115998cf3c8b6a7b9d34bf01c3ad8fff6cdc153360bcdfe1962a9c",
+        "sha256_in_prefix": "0c101bb023115998cf3c8b6a7b9d34bf01c3ad8fff6cdc153360bcdfe1962a9c",
+        "size_in_bytes": 2043
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/utils/__pycache__/file_state.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "1c02a2e65db24e6dbaa95391f8a27bc9f06b0a99247463e516e9cf3a3c65d42d",
+        "sha256_in_prefix": "1c02a2e65db24e6dbaa95391f8a27bc9f06b0a99247463e516e9cf3a3c65d42d",
+        "size_in_bytes": 3815
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/utils/__pycache__/pragma_parser.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "95cec2e7b9d21e0075249614313724f3e0fcb7b1c7dc6516a52ecb01f0de1785",
+        "sha256_in_prefix": "95cec2e7b9d21e0075249614313724f3e0fcb7b1c7dc6516a52ecb01f0de1785",
+        "size_in_bytes": 3645
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/utils/__pycache__/utils.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "231c0ad209bc4c596afda24cc112ced7810af202abd25f0bad3d65c9b0446792",
+        "sha256_in_prefix": "231c0ad209bc4c596afda24cc112ced7810af202abd25f0bad3d65c9b0446792",
+        "size_in_bytes": 10877
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/utils/ast_walker.py",
+        "path_type": "hardlink",
+        "sha256": "e9ec2c8914f3d56e2ff54166fa55cc66805611ef1bf3d91946b48dedb5b76a23",
+        "sha256_in_prefix": "e9ec2c8914f3d56e2ff54166fa55cc66805611ef1bf3d91946b48dedb5b76a23",
+        "size_in_bytes": 2907
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/utils/file_state.py",
+        "path_type": "hardlink",
+        "sha256": "cf0fb827925ab0d64f8667136c35308aa697a4f5822293dd622cefc86967bc2a",
+        "sha256_in_prefix": "cf0fb827925ab0d64f8667136c35308aa697a4f5822293dd622cefc86967bc2a",
+        "size_in_bytes": 5962
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/utils/pragma_parser.py",
+        "path_type": "hardlink",
+        "sha256": "16e03275a25bfcee9131b555c9983cdde002295b96c6eaed7399f51b1cfa1374",
+        "sha256_in_prefix": "16e03275a25bfcee9131b555c9983cdde002295b96c6eaed7399f51b1cfa1374",
+        "size_in_bytes": 4799
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pylint/utils/utils.py",
+        "path_type": "hardlink",
+        "sha256": "e41e4804cf9350c2caca03c732ca7ddad148701b281e7a6fec613b5cecf2d5e4",
+        "sha256_in_prefix": "e41e4804cf9350c2caca03c732ca7ddad148701b281e7a6fec613b5cecf2d5e4",
+        "size_in_bytes": 13311
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "pylint",
+  "sha256": "f6557cec356c2eb73c7314ce16e65abf30467a68f1745d6db92b8cc34475d7ed",
+  "size": 457384,
+  "subdir": "linux-64",
+  "timestamp": 1592496086842,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/pylint-2.5.3-py38_0.conda",
+  "version": "2.5.3"
+}
