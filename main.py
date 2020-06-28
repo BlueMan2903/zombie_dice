@@ -1,5 +1,3 @@
-#TODO add runners throw again (inside loop at line 43), add dice color to the output
-
 import random
 
 class Player:
